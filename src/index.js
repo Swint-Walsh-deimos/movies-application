@@ -1,14 +1,19 @@
 /**
  * es6 modules and imports
  */
-import sayHello from './hello';
+import {sayHello} from './hello.js';
 sayHello('World');
 
-/**
- * require style imports
- */
+// import {getMovies} from './api.js';
+
+// /**
+//  * require style imports
+//  */
 const {getMovies} = require('./api.js');
 
+
+
+//function that grabs and displays movies/movie info
 getMovies().then((movies) => {
   console.log('Here are all the movies:');
   movies.forEach(({title, rating, id}) => {
@@ -18,3 +23,5 @@ getMovies().then((movies) => {
   alert('Oh no! Something went wrong.\nCheck the console for details.')
   console.log(error);
 });
+
+
