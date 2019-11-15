@@ -4,12 +4,12 @@
 import {sayHello} from './hello.js';
 sayHello('World');
 
-// import {getMovies} from './api.js';
+import {getMovies} from './api.js';
 
-// /**
-//  * require style imports
-//  */
-const {getMovies} = require('./api.js');
+/**
+ * require style imports
+ */
+// const {getMovies} = require('./api.js');
 
 
 
@@ -23,5 +23,3 @@ getMovies().then((movies) => {
   alert('Oh no! Something went wrong.\nCheck the console for details.')
   console.log(error);
 });
-
-
