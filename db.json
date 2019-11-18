@@ -1,14 +1,374 @@
 {
   "movies": [
     {
-      "title": "Casablanca",
+      "title": "Who Framed Roger Rabbit",
       "rating": "4",
       "id": 1
     },
     {
-      "title": "Star Wars: A New Hope",
+      "title": "Akira",
       "rating": "5",
       "id": 2
+    },
+    {
+      "title": "Office Space",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "title": "Spaceballs",
+      "rating": "5",
+      "id": 4
+    },
+    {
+      "title": "Fight Club",
+      "rating": "5",
+      "id": 5
+    },
+    {
+      "title": "300",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "title": "28 Days Later",
+      "rating": "5",
+      "id": 7
+    },
+    {
+      "title": "Blade",
+      "rating": "5",
+      "id": 8
+    },
+    {
+      "title": "Shaun of the Dead",
+      "rating": "5",
+      "id": 9
+    },
+    {
+      "title": "Zombieland",
+      "rating": "5",
+      "id": 10
+    },
+    {
+      "title": "The Big Lebowski",
+      "rating": "5",
+      "id": 11
+    },
+    {
+      "title": "Army of Darkness",
+      "rating": "5",
+      "id": 12
+    },
+    {
+      "title": "Revenge of the Nerds",
+      "rating": "5",
+      "id": 13
+    },
+    {
+      "title": "RoboCop",
+      "rating": "5",
+      "id": 14
+    },
+    {
+      "title": "Ghostbusters",
+      "rating": "5",
+      "id": 15
+    },
+    {
+      "title": "The Princess Bride",
+      "rating": "5",
+      "id": 16
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "rating": "5",
+      "id": 17
+    },
+    {
+      "title": "2001: A Space Odyssey",
+      "rating": "5",
+      "id": 18
+    },
+    {
+      "title": "Short Circuit",
+      "rating": "5",
+      "id": 19
+    },
+    {
+      "title": "Kung Fury",
+      "rating": "5",
+      "id": 20
+    },
+    {
+      "title": "Casablanca",
+      "rating": "4",
+      "id": 21
+    },
+    {
+      "title": "Star Wars: A New Hope",
+      "rating": "5",
+      "id": 22
+    },
+    {
+      "title": "Shutter Island",
+      "rating": "5",
+      "id": 23
+    },
+    {
+      "title": "Point Break",
+      "rating": "5",
+      "id": 24
+    },
+    {
+      "title": "The Secret Life of Walter Mitty",
+      "rating": "5",
+      "id": 25
+    },
+    {
+      "title": "Terminal Velocity",
+      "rating": "5",
+      "id": 26
+    },
+    {
+      "title": "Drop Zone",
+      "rating": "5",
+      "id": 27
+    },
+    {
+      "title": "Sunshine Superman",
+      "rating": "5",
+      "id": 28
+    },
+    {
+      "title": "Interstellar",
+      "rating": "5",
+      "id": 29
+    },
+    {
+      "title": "Inception",
+      "rating": "5",
+      "id": 30
+    },
+    {
+      "title": "Tron",
+      "rating": "5",
+      "id": 31
+    },
+    {
+      "title": "Rush",
+      "rating": "5",
+      "id": 32
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 33
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 34
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 35
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 36
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 37
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 38
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 39
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 40
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 41
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 42
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 43
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 44
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 45
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 46
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 47
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 48
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 49
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 50
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 51
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 52
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 53
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 54
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 55
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 56
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 57
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 58
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 59
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 60
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 61
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 62
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 63
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 64
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 65
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 66
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 67
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 68
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 69
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 70
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 71
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 72
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 73
+    },
+    {
+      "title": "Movie title",
+      "rating": "1",
+      "id": 74
     }
   ]
 }

@@ -42,3 +42,12 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+
+/*--------------add card--------------*/
+/*#addCard {*/
+/*     background-color: dimgrey;*/
+/*     opacity: .5%;*/
+/*     color: white;*/
+/* }*/

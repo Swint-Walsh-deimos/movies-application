@@ -1,0 +1,54 @@
+{
+  "movies": [
+    {
+      "title": "Shutter Island",
+      "rating": "5",
+      "id": 1
+    },
+    {
+      "title": "Point Break",
+      "rating": "5",
+      "id": 2
+    },
+    {
+      "title": "The Secret Life of Walter Mitty",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "title": "Terminal Velocity",
+      "rating": "5",
+      "id": 4
+    },
+    {
+      "title": "Drop Zone",
+      "rating": "5",
+      "id": 5
+    },
+    {
+      "title": "Sunshine Superman",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "title": "Interstellar",
+      "rating": "5",
+      "id": 7
+    },
+    {
+      "title": "Inception",
+      "rating": "5",
+      "id": 8
+    },
+    {
+      "title": "Tron",
+      "rating": "5",
+      "id": 9
+    },
+    {
+      "title": "Rush",
+      "rating": "5",
+      "id": 10
+    }
+  ]
+}
