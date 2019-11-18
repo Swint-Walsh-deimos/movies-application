@@ -47,18 +47,7 @@ getMovies().then((movies) => {
 //     })
 //     .catch(() => console.log('The important thing is you tried...'));
 
- postMovie({
-  "title": "Movie title",
-  "rating": "1"
-}).then(getMovies).then((movies) => {
-  console.log('Here are all the movies:');
-  movies.forEach(({title, rating}) => {
-    console.log(`${title} ${rating}`);
-  });
-}).catch((error) => {
-  alert('Oh no! Something went wrong.\nCheck the console for details.');
-  console.log(error);
-});
+
 
 // patchMovie({
 //   "title": "title",
@@ -82,3 +71,25 @@ getMovies().then((movies) => {
 //   alert('Oh no! Something went wrong.\nCheck the console for details.');
 //   console.log(error);
 // });
+
+
+$("addCard").click()
+
+
+$("#saveNew").click(function (event) {
+  postMovie({
+    "title": "Movie title",
+    "rating": "1"
+  }).then(getMovies).then((movies) => {
+    console.log('Here are all the movies:');
+    movies.forEach(({title, rating}) => {
+      console.log(`${title} ${rating}`);
+    });
+  }).catch((error) => {
+    alert('Oh no! Something went wrong.\nCheck the console for details.');
+    console.log(error);
+  });
+});
+
+
+
