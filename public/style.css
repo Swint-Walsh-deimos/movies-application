@@ -1,5 +1,19 @@
 html, body {
     height: 100%;
+    background-color: darkred;
+}
+
+.jumbotron {
+    background-image: url("img/34-1.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -20,10 +34,11 @@ html, body {
     width: 200px;
     height: 300px;
     margin: 10px;
-    border: 2px solid #B6860A;
+    border: 5px solid #754e0a;
     padding: 10px;
     /*background-color: #002B80;*/
     border-radius: 5%;
+    background-color: #c8980a;
 }
 
 .company-card {
@@ -44,10 +59,22 @@ html, body {
     flex-wrap: wrap;
 }
 
+.card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.card button {
+    background-color: darkred;
+    border-color: black;
+    color: #c8980a;
+}
+
 
 /*--------------add card--------------*/
-/*#addCard {*/
-/*     background-color: dimgrey;*/
-/*     opacity: .5%;*/
-/*     color: white;*/
-/* }*/
+#addCard {
+    font-size: 150px;
+    text-align: center;
+ }
