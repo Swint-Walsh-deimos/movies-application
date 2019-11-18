@@ -99,66 +99,6 @@
       "title": "Kung Fury",
       "rating": "5",
       "id": 20
-    },
-    {
-      "title": "Casablanca",
-      "rating": "4",
-      "id": 21
-    },
-    {
-      "title": "Star Wars: A New Hope",
-      "rating": "5",
-      "id": 22
-    },
-    {
-      "title": "Shutter Island",
-      "rating": "5",
-      "id": 23
-    },
-    {
-      "title": "Point Break",
-      "rating": "5",
-      "id": 24
-    },
-    {
-      "title": "The Secret Life of Walter Mitty",
-      "rating": "5",
-      "id": 25
-    },
-    {
-      "title": "Terminal Velocity",
-      "rating": "5",
-      "id": 26
-    },
-    {
-      "title": "Drop Zone",
-      "rating": "5",
-      "id": 27
-    },
-    {
-      "title": "Sunshine Superman",
-      "rating": "5",
-      "id": 28
-    },
-    {
-      "title": "Interstellar",
-      "rating": "5",
-      "id": 29
-    },
-    {
-      "title": "Inception",
-      "rating": "5",
-      "id": 30
-    },
-    {
-      "title": "Tron",
-      "rating": "5",
-      "id": 31
-    },
-    {
-      "title": "Rush",
-      "rating": "5",
-      "id": 32
     }
   ]
 }
