@@ -1,0 +1,104 @@
+{
+  "movies": [
+    {
+      "title": "Who Framed Roger Rabbit",
+      "rating": "4",
+      "id": 1
+    },
+    {
+      "title": "Akira",
+      "rating": "5",
+      "id": 2
+    },
+    {
+      "title": "Office Space",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "title": "Spaceballs",
+      "rating": "5",
+      "id": 4
+    },
+    {
+      "title": "Fight Club",
+      "rating": "5",
+      "id": 5
+    },
+    {
+      "title": "300",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "title": "28 Days Later",
+      "rating": "5",
+      "id": 7
+    },
+    {
+      "title": "Blade",
+      "rating": "5",
+      "id": 8
+    },
+    {
+      "title": "Shaun of the Dead",
+      "rating": "5",
+      "id": 9
+    },
+    {
+      "title": "Zombieland",
+      "rating": "5",
+      "id": 10
+    },
+    {
+      "title": "The Big Lebowski",
+      "rating": "5",
+      "id": 11
+    },
+    {
+      "title": "Army of Darkness",
+      "rating": "5",
+      "id": 12
+    },
+    {
+      "title": "Revenge of the Nerds",
+      "rating": "5",
+      "id": 13
+    },
+    {
+      "title": "RoboCop",
+      "rating": "5",
+      "id": 14
+    },
+    {
+      "title": "Ghostbusters",
+      "rating": "5",
+      "id": 15
+    },
+    {
+      "title": "The Princess Bride",
+      "rating": "5",
+      "id": 16
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "rating": "5",
+      "id": 17
+    },
+    {
+      "title": "2001: A Space Odyssey",
+      "rating": "5",
+      "id": 18
+    },
+    {
+      "title": "Short Circuit",
+      "rating": "5",
+      "id": 19
+    },
+    {
+      "title": "Kung Fury",
+      "rating": "5",
+      "id": 20
+    }
+  ]
+}
