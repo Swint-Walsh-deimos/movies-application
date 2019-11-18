@@ -29,7 +29,7 @@ function makeCard(title, rating){
 getMovies().then((movies) => {
   $('#preloader').html("");
   console.log('Here are all the movies:');
-  movies.forEach(({title, rating, ${id}}) => {
+  movies.forEach(({title, rating, id}) => {
     console.log(`id#${id} - ${title} - rating: ${rating}`);
     let newTitle = `${title}`;
     let newRating = `${rating}`;
@@ -73,13 +73,13 @@ getMovies().then((movies) => {
 // });
 
 
-$("addCard").click()
+// $("addCard").click()
 
 
 $("#saveNew").click(function (event) {
   postMovie({
-    "title": "Movie title",
-    "rating": "1"
+    "title": $("#addMovieTitle").val(),
+    "rating": $("#addMovieRating").val()
   }).then(getMovies).then((movies) => {
     console.log('Here are all the movies:');
     movies.forEach(({title, rating}) => {
@@ -89,6 +89,7 @@ $("#saveNew").click(function (event) {
     alert('Oh no! Something went wrong.\nCheck the console for details.');
     console.log(error);
   });
+  location.reload();
 });
 
 
