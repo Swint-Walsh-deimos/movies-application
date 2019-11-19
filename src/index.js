@@ -8,7 +8,6 @@ sayHello('World');
 const {getMovie, getMovies, postMovie, patchMovie, deleteMovie} = require('./api.js');
 
 
-
 //---------------------generate cards----------------------
 
 let ID;
@@ -31,6 +30,15 @@ function makeCard(title, genre, rating, id, poster) {
     card += `</div>`;
     card += `</div></div>`;
     document.getElementById("card-container").innerHTML += card;
+
+    // $(".moviePoster").on("click", function () {
+    //    $("#movieInfoTitle").html(`${title}`);
+    //     // console.log(`${title}`);
+    //     console.log($("this.title"));
+    //     ID = $(this).attr("id");
+    //     console.log(ID);
+    //
+    // });
 
     $('.deleteMovie').on('click', function (event) {
         if (confirm("Are you sure you'd like to delete this movie?")) {
@@ -89,7 +97,7 @@ function makeCard(title, genre, rating, id, poster) {
                     "title": $("#editMovieTitle").val(),
                     "rating": $("#editMovieRating").val()
                 },
-            ID).then(getMovies).then((movies) => {
+                ID).then(getMovies).then((movies) => {
                 console.log('Here are all the movies:');
                 movies.forEach(({title, rating}) => {
                     console.log(`${title} ${rating}`);
@@ -127,7 +135,6 @@ function makeCard(title, genre, rating, id, poster) {
     });
 
 }
-
 
 
 // function displayGenre () {
@@ -260,6 +267,8 @@ $("#saveNew").click(function (event) {
 
     });
 });
+
+
 
 
 

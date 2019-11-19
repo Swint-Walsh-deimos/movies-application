@@ -110,7 +110,7 @@
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
       "genre": "Adventure",
       "id": 16,
-      "poster": "<img src='../moviePosters/princessBride.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/princessBride.jpg' class='moviePoster' alt=''  data-toggle='modal' data-target='#movieInfoModal'></img>"
     },
     {
       "title": "2001: A Space Odyssey",
