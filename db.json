@@ -2,103 +2,124 @@
   "movies": [
     {
       "title": "Who Framed Roger Rabbit",
-      "rating": "4",
-      "id": 1
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 1,
+      "poster" : "<img src='../moviePosters/rogerRabbit.jpg' class='moviePoster' alt=''></img>"
+
     },
     {
       "title": "Akira",
-      "rating": "5",
-      "id": 2
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 2,
+      "poster" : "<img src='../moviePosters/akira.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Office Space",
-      "rating": "5",
-      "id": 3
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 3,
+      "poster" : "<img src='../moviePosters/officeSpace.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Spaceballs",
-      "rating": "5",
-      "id": 4
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 4,
+      "poster" : "<img src='../moviePosters/spaceballs.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Fight Club",
-      "rating": "5",
-      "id": 5
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 5,
+      "poster" : "<img src='../moviePosters/fightClub.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "300",
-      "rating": "5",
-      "id": 6
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 6,
+      "poster" : "<img src='../moviePosters/300.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "28 Days Later",
-      "rating": "5",
-      "id": 7
+      "rating": "⭐️ ⭐️ ⭐️",
+      "id": 7,
+      "poster" : "<img src='../moviePosters/28DaysLater.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Blade",
-      "rating": "5",
-      "id": 8
+      "rating": "⭐️ ⭐️ ⭐️",
+      "id": 8,
+      "poster" : "<img src='../moviePosters/blade.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Shaun of the Dead",
-      "rating": "5",
-      "id": 9
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 9,
+      "poster" : "<img src='../moviePosters/shaunOfTheDead.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Zombieland",
-      "rating": "5",
-      "id": 10
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 10,
+      "poster" : "<img src='../moviePosters/zombieland.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "The Big Lebowski",
-      "rating": "5",
-      "id": 11
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 11,
+      "poster" : "<img src='../moviePosters/bigLebowski.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Army of Darkness",
-      "rating": "5",
-      "id": 12
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 12,
+      "poster" : "<img src='../moviePosters/armyOfDarkness.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Revenge of the Nerds",
-      "rating": "5",
-      "id": 13
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 13,
+      "poster" : "<img src='../moviePosters/revengeOfTheNerds.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "RoboCop",
-      "rating": "5",
-      "id": 14
+      "rating": "⭐️ ⭐️ ⭐️ ",
+      "id": 14,
+      "poster" : "<img src='../moviePosters/robocop.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Ghostbusters",
-      "rating": "5",
-      "id": 15
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 15,
+      "poster" : "<img src='../moviePosters/ghostbusters.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "The Princess Bride",
-      "rating": "5",
-      "id": 16
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 16,
+      "poster" : "<img src='../moviePosters/princessBride.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "rating": "5",
-      "id": 17
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 17,
+      "poster" : "<img src='../moviePosters/lotrFellowship.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "2001: A Space Odyssey",
-      "rating": "5",
-      "id": 18
+      "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "id": 18,
+      "poster" : "<img src='../moviePosters/2001Odyssey.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Short Circuit",
-      "rating": "5",
-      "id": 19
+      "rating": "⭐️ ⭐️ ⭐️",
+      "id": 19,
+      "poster" : "<img src='../moviePosters/shortCircuit.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Kung Fury",
-      "rating": "5",
-      "id": 20
+      "rating": "⭐️ ⭐️",
+      "id": 20,
+      "poster" : "<img src='../moviePosters/kungFury.jpg' class='moviePoster' alt=''></img>"
     }
   ]
 }

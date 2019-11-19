@@ -1,6 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
     background-color: darkred;
+    font-size: 1.25em;
 }
 
 .jumbotron {
@@ -31,8 +38,8 @@ html, body {
 }
 
 .card {
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 400px;
     margin: 10px;
     border: 5px solid #754e0a;
     padding: 10px;
@@ -46,7 +53,7 @@ html, body {
 }
 
 /*---------------card grid----------------------*/
-.main-container{
+.main-container {
     max-width: 1100px;
     margin: 0 0 0 10%;
 }
@@ -70,6 +77,8 @@ html, body {
     background-color: darkred;
     border-color: black;
     color: #c8980a;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 
@@ -77,4 +86,70 @@ html, body {
 #addCard {
     font-size: 150px;
     text-align: center;
- }
+}
+
+
+/********************************Modal Style******************************/
+#pictureHolder {
+    height: 250px;
+    width: 180px;
+    margin-right: 0 !important;
+}
+
+.moviePoster {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 3px solid darkred;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    /*margin-top: 5px;*/
+    margin-left: 5%!important;
+}
+
+
+.modal {
+    color: lightgray;
+}
+
+.modal input {
+    padding: 5px;
+}
+
+.modal-content {
+    background-color: darkred;
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.modal-body {
+    margin: 2px;
+    padding: 2px;
+}
+
+.fileInput {
+    display: inline-block;
+    margin-left: 18%;
+}
+
+#addMovieTitle {
+    width: 95%;
+}
+
+.deleteMovie {
+    margin-left: 60%;
+}
+
+.editMovie {
+    margin-right: 60%;
+}
+
+.card-text {
+    height: 75px;
+}
+
+.card {
+    display: flex;
+}

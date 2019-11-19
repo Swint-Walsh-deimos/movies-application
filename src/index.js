@@ -23,13 +23,16 @@ const {getMovie, getMovies, postMovie, patchMovie, deleteMovie} = require('./api
 let ID;
 
 
-function makeCard(title, rating, id) {
+function makeCard(title, rating, id, poster) {
 
     let card;
     card = "";
     card += `<div class="card">`;
     card += `<div class="card-body">`;
-    card += `<p class="card-text">${title}, ${rating}</p>`;
+    card += `<p class="card-text mb-0">${title} <br> ${rating}</p>`;
+    card += `<div class="mr-0" id="pictureHolder">`;
+    card += `${poster}`;
+    card += `</div>`;
     card += `<div id="">`;
     card += `<button> <i class="fas fa-edit editMovie" id="${id}" data-toggle="modal" data-target="#exampleModal2"></i></button>`;
     card += `<button class="deleteMovie" id="${id}"> <i class="fas fa-trash-alt" id="${id}"></i></button>`;
@@ -88,9 +91,6 @@ function makeCard(title, rating, id) {
     //edit movie is name of class for modal,
     $('.editMovie').on('click', function (event) {
         ID = $(this).attr("id");
-        // hgave id be a global addParsedVariableToModule(change the value of id, based upon what edit button is clickiewd)
-
-
         console.log(ID);
         // let uniquetitle = $(this).attr("title");
         $("#saveEdit").on('click', function (event) {
@@ -155,12 +155,13 @@ getMovies().then((movies) => {
                                 </div>
                             </div>`);
     console.log('Here are all the movies:');
-    movies.forEach(({title, rating, id}) => {
-        console.log(`id#${id} - ${title} - rating: ${rating}`);
+    movies.forEach(({title, rating, id, poster}) => {
+        console.log(`id#${id} - ${title} - rating: ${rating} - poster ${poster}`);
         let newTitle = `${title}`;
         let newRating = `${rating}`;
         let newID = `${id}`;
-        makeCard(newTitle, newRating, newID);
+        let newPoster = `${poster}`;
+        makeCard(newTitle, newRating, newID, newPoster);
     });
 }).catch((error) => {
     alert('Oh no! Something went wrong when getting movies.\nCheck the console for details.');
