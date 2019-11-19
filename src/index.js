@@ -5,31 +5,23 @@ import {sayHello} from './hello.js';
 
 sayHello('World');
 
-// import {getMovies} from './api.js';
 const {getMovie, getMovies, postMovie, patchMovie, deleteMovie} = require('./api.js');
 
-/**
- * require style imports
- */
-// const {getMovies} = require('./api.js');
-
-//does not work
-// const {movies} = require('./db.json');
-// console.log(movies.id);
 
 
 //---------------------generate cards----------------------
 
 let ID;
+let card;
 
 
-function makeCard(title, rating, id, poster) {
+function makeCard(title, genre, rating, id, poster) {
 
     let card;
     card = "";
     card += `<div class="card">`;
     card += `<div class="card-body">`;
-    card += `<p class="card-text mb-0">${title} <br> ${rating}</p>`;
+    card += `<p class="card-text mb-0">${title} <br> ${genre}<br> ${rating}</p>`;
     card += `<div class="mr-0" id="pictureHolder">`;
     card += `${poster}`;
     card += `</div>`;
@@ -53,8 +45,6 @@ function makeCard(title, rating, id, poster) {
                 movies.forEach(({title, rating}) => {
                     console.log(`${title} ${rating}`);
                 });
-
-
                 getMovies().then((movies) => {
                     $('#preloader').html("");
                     $(".card-container").html("");
@@ -67,24 +57,24 @@ function makeCard(title, rating, id, poster) {
                                 </div>
                             </div>`);
                     console.log('Here are all the movies:');
-                    movies.forEach(({title, rating, id}) => {
-                        console.log(`id#${id} - ${title} - rating: ${rating}`);
+                    movies.forEach(({title, genre, rating, id, poster}) => {
+                        console.log(`id#${id} - ${title} - rating: ${rating} - poster ${poster}`);
                         let newTitle = `${title}`;
+                        let newGenre = `${genre}`;
                         let newRating = `${rating}`;
                         let newID = `${id}`;
-                        makeCard(newTitle, newRating, newID);
+                        let newPoster = `${poster}`;
+                        makeCard(newTitle, newGenre, newRating, newID, newPoster);
                     });
                 }).catch((error) => {
-                    alert('Oh no! Something went wrong when getting movies.\nCheck the console for details.');
-                    console.log(error);
+
                 });
             }).catch((error) => {
-                alert('Oh no! Something went wrong when deleting a movie.\nCheck the console for details.');
-                console.log(error);
+
             });
 
             // location.reload();
-        } else alert("something went wrong!")
+        } else alert("Delete Cancelled")
     });
 
 
@@ -105,8 +95,7 @@ function makeCard(title, rating, id, poster) {
                     console.log(`${title} ${rating}`);
                 });
             }).catch((error) => {
-                alert('Oh no! Something went wrong.\nCheck the console for details.');
-                console.log(error);
+
             });
 
             getMovies().then((movies) => {
@@ -121,17 +110,17 @@ function makeCard(title, rating, id, poster) {
                                 </div>
                             </div>`);
                 console.log('Here are all the movies:');
-                movies.forEach(({title, rating, id}) => {
-                    console.log(`id#${id} - ${title} - rating: ${rating}`);
+                movies.forEach(({title, genre, rating, id, poster}) => {
+                    console.log(`id#${id} - ${title} - rating: ${rating} - poster ${poster}`);
                     let newTitle = `${title}`;
+                    let newGenre = `${genre}`;
                     let newRating = `${rating}`;
                     let newID = `${id}`;
-                    makeCard(newTitle, newRating, newID);
-
+                    let newPoster = `${poster}`;
+                    makeCard(newTitle, newGenre, newRating, newID, newPoster);
                 });
             }).catch((error) => {
-                alert('Oh no! Something went wrong when getting movies.\nCheck the console for details.');
-                console.log(error);
+
             });
         });
 
@@ -140,6 +129,13 @@ function makeCard(title, rating, id, poster) {
 }
 
 
+
+// function displayGenre () {
+//     let genre = movies.genre
+//     if ($("#selectGenre").val() !== ${genre}) {
+//         $(".card").toggle();
+//     }
+// }
 
 
 //function that grabs and displays movies/movie info
@@ -155,17 +151,17 @@ getMovies().then((movies) => {
                                 </div>
                             </div>`);
     console.log('Here are all the movies:');
-    movies.forEach(({title, rating, id, poster}) => {
+    movies.forEach(({title, genre, rating, id, poster}) => {
         console.log(`id#${id} - ${title} - rating: ${rating} - poster ${poster}`);
         let newTitle = `${title}`;
+        let newGenre = `${genre}`;
         let newRating = `${rating}`;
         let newID = `${id}`;
         let newPoster = `${poster}`;
-        makeCard(newTitle, newRating, newID, newPoster);
+        makeCard(newTitle, newGenre, newRating, newID, newPoster);
     });
 }).catch((error) => {
-    alert('Oh no! Something went wrong when getting movies.\nCheck the console for details.');
-    console.log(error);
+
 });
 
 // getMovie(1)
@@ -228,18 +224,17 @@ getMovies().then((movies) => {
 $("#saveNew").click(function (event) {
     postMovie({
         "title": $("#addMovieTitle").val(),
-        "rating": $("#addMovieRating").val()
+        "genre": $("#addMovieGenre").val(),
+        "rating": $("#addMovieRating").val(),
+        "poster": `<img src='../moviePosters/${"#addFileInput"}.val()' class='moviePoster' alt=''></img>`
     }).then(getMovies).then((movies) => {
         console.log('Here are all the movies:');
-        movies.forEach(({title, rating}) => {
-            console.log(`${title} ${rating}`);
+        movies.forEach(({title, genre, rating, poster}) => {
+            console.log(`${title} ${rating} ${poster}`);
         });
     }).catch((error) => {
-        alert('Oh no! Something went wrong when adding a movie.\nCheck the console for details.');
-        console.log(error);
+
     });
-
-
     getMovies().then((movies) => {
         $('#preloader').html("");
         $(".card-container").html("");
@@ -252,19 +247,21 @@ $("#saveNew").click(function (event) {
                                 </div>
                             </div>`);
         console.log('Here are all the movies:');
-        movies.forEach(({title, rating, id}) => {
-            console.log(`id#${id} - ${title} - rating: ${rating}`);
+        movies.forEach(({title, genre, rating, id, poster}) => {
+            console.log(`id#${id} - ${title} - rating: ${rating} - poster ${poster}`);
             let newTitle = `${title}`;
+            let newGenre = `${genre}`;
             let newRating = `${rating}`;
             let newID = `${id}`;
-            makeCard(newTitle, newRating, newID);
-
+            let newPoster = `${poster}`;
+            makeCard(newTitle, newGenre, newRating, newID, newPoster);
         });
     }).catch((error) => {
-        alert('Oh no! Something went wrong when getting movies.\nCheck the console for details.');
-        console.log(error);
+
     });
 });
+
+
 
 
 

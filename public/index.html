@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -15,12 +16,24 @@
 
 
 <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <h1 class="display-4">Movie Journal</h1>
+    <p class="lead">Save your favorite movies and rate them</p>
     <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
 </div>
 
+<!---------------dropdowns------------------>
+<!--<form action="">-->
+<!--    <label for="selectGenre" class="selectGenre">Select Genre</label> <br>-->
+<!--    <select name="genre" class="selectGenre" id="selectGenre">-->
+<!--        <option value="&#45;&#45;">- -</option>-->
+<!--        <option value="action">Action️</option>-->
+<!--        <option value="adventure">Adventure</option>-->
+<!--        <option value="comedy">Comedy</option>-->
+<!--        <option value="drama">Drama️</option>-->
+<!--        <option value="horror">Horror️</option>-->
+<!--        <option value="romance">Romance</option>-->
+<!--    </select>-->
+<!--</form>-->
 
 <div id="preloader">
     <img src="img/spinner.svg" alt="">
@@ -29,6 +42,7 @@
     <div class="card-container" id="card-container">
     </div>
 </div>
+
 
 <!-- Modal add -->
 <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -45,25 +59,36 @@
                     Movie Title...<br>
                     <input type="text" name="movieTitle" id="addMovieTitle" placeholder="What movie are we adding?">
                     <br>
+                    Genre...
+                    <br>
+                    <select name="genre" id="addMovieGenre">
+                        <option selected value="action">Action️</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="drama">Drama️</option>
+                        <option value="horror">Horror️</option>
+                        <option value="romance">Romance</option>
+                    </select>
+                    <br>
                     Rating...
                     <br>
                     <select name="rating" id="addMovieRating">
-                        <option selected value="5">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</option>
-                        <option value="4">⭐️ ⭐️ ⭐️ ⭐️</option>
-                        <option value="3">⭐️ ⭐️ ⭐</option>
-                        <option value="2">⭐️ ⭐️</option>
-                        <option value="1">⭐️</option>
+                        <option selected value="⭐️ ⭐️ ⭐️ ⭐️ ⭐">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</option>
+                        <option value="⭐️ ⭐️ ⭐️ ⭐">⭐️ ⭐️ ⭐️ ⭐️</option>
+                        <option value="⭐️ ⭐️ ⭐">⭐️ ⭐️ ⭐</option>
+                        <option value="⭐️ ⭐">⭐️ ⭐️</option>
+                        <option value="⭐">⭐️</option>
                     </select>
                     <br>
                     <span>Add an image with your movie...</span>
                     <br>
-                    <input type="file" name="pic" accept="image/*" class="fileInput">
+                    <input type="file" name="pic" accept="image/*" class="fileInput" id="addFileInput">
 
                 </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" id="saveNew" class="btn btn-primary refresh" data-dismiss="modal">Save changes</button>
+                <button type="button" id="saveNew" class="btn btn-warning refresh" data-dismiss="modal">Save changes</button>
             </div>
         </div>
     </div>
@@ -88,11 +113,11 @@
                     Rating...
                     <br>
                     <select name="rating" id="editMovieRating">
-                        <option selected value="5">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</option>
-                        <option value="4">⭐️ ⭐️ ⭐️ ⭐️</option>
-                        <option value="3">⭐️ ⭐️ ⭐</option>
-                        <option value="2">⭐️ ⭐️</option>
-                        <option value="1">⭐️</option>
+                        <option selected value="⭐️ ⭐️ ⭐️ ⭐️ ⭐">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</option>
+                        <option value="⭐️ ⭐️ ⭐️ ⭐">⭐️ ⭐️ ⭐️ ⭐️</option>
+                        <option value="⭐️ ⭐️ ⭐">⭐️ ⭐️ ⭐</option>
+                        <option value="⭐️ ⭐">⭐️ ⭐️</option>
+                        <option value="⭐">⭐️</option>
                     </select>
                     <br>
                     <span>Add an image with your movie...</span>

@@ -3,123 +3,135 @@
     {
       "title": "Who Framed Roger Rabbit",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 1,
-      "poster" : "<img src='../moviePosters/rogerRabbit.jpg' class='moviePoster' alt=''></img>"
-
+      "poster": "<img src='../moviePosters/rogerRabbit.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Akira",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Action",
       "id": 2,
-      "poster" : "<img src='../moviePosters/akira.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/akira.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Office Space",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 3,
-      "poster" : "<img src='../moviePosters/officeSpace.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/officeSpace.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Spaceballs",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 4,
-      "poster" : "<img src='../moviePosters/spaceballs.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/spaceballs.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Fight Club",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Action",
       "id": 5,
-      "poster" : "<img src='../moviePosters/fightClub.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/fightClub.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "300",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Action",
       "id": 6,
-      "poster" : "<img src='../moviePosters/300.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/300.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "28 Days Later",
       "rating": "⭐️ ⭐️ ⭐️",
+      "genre": "Horror",
       "id": 7,
-      "poster" : "<img src='../moviePosters/28DaysLater.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/28DaysLater.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Blade",
       "rating": "⭐️ ⭐️ ⭐️",
+      "genre": "Action",
       "id": 8,
-      "poster" : "<img src='../moviePosters/blade.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/blade.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Shaun of the Dead",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 9,
-      "poster" : "<img src='../moviePosters/shaunOfTheDead.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/shaunOfTheDead.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Zombieland",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 10,
-      "poster" : "<img src='../moviePosters/zombieland.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/zombieland.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "The Big Lebowski",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 11,
-      "poster" : "<img src='../moviePosters/bigLebowski.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/bigLebowski.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Army of Darkness",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Action",
       "id": 12,
-      "poster" : "<img src='../moviePosters/armyOfDarkness.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/armyOfDarkness.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Revenge of the Nerds",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 13,
-      "poster" : "<img src='../moviePosters/revengeOfTheNerds.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/revengeOfTheNerds.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "RoboCop",
       "rating": "⭐️ ⭐️ ⭐️ ",
+      "genre": "Action",
       "id": 14,
-      "poster" : "<img src='../moviePosters/robocop.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/robocop.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Ghostbusters",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 15,
-      "poster" : "<img src='../moviePosters/ghostbusters.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/ghostbusters.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "The Princess Bride",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Adventure",
       "id": 16,
-      "poster" : "<img src='../moviePosters/princessBride.jpg' class='moviePoster' alt=''></img>"
-    },
-    {
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "rating": "⭐️ ⭐️ ⭐️ ⭐️",
-      "id": 17,
-      "poster" : "<img src='../moviePosters/lotrFellowship.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/princessBride.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "2001: A Space Odyssey",
       "rating": "⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+      "genre": "Adventure",
       "id": 18,
-      "poster" : "<img src='../moviePosters/2001Odyssey.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/2001Odyssey.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Short Circuit",
       "rating": "⭐️ ⭐️ ⭐️",
+      "genre": "Comedy",
       "id": 19,
-      "poster" : "<img src='../moviePosters/shortCircuit.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/shortCircuit.jpg' class='moviePoster' alt=''></img>"
     },
     {
       "title": "Kung Fury",
       "rating": "⭐️ ⭐️",
+      "genre": "Action",
       "id": 20,
-      "poster" : "<img src='../moviePosters/kungFury.jpg' class='moviePoster' alt=''></img>"
+      "poster": "<img src='../moviePosters/kungFury.jpg' class='moviePoster' alt=''></img>"
     }
   ]
 }
