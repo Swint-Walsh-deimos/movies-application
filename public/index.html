@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title>My Application</title>
+    <title>Movie journal</title>
     <script src="https://kit.fontawesome.com/e659140c25.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -108,7 +108,7 @@
             <div class="modal-body">
                 <form action="">
                     Movie Title...<br>
-                    <input type="text" name="movieTitle" id="editMovieTitle" placeholder="$(this.movie, get this to work)">
+                    <input type="text" name="movieTitle" id="editMovieTitle" placeholder="movie title... ^_^">
                     <br>
                     Rating...
                     <br>
@@ -156,6 +156,29 @@
         </div>
     </div>
 </div>
+
+
+<!--info modal-->
+<div class="modal" tabindex="-1" role="dialog" id="movieInfoModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="movieInfoTitle">The Princess Bride</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="movieInfoDescription">While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
